@@ -2,7 +2,7 @@ package users;
 
 import org.testng.annotations.Test;
 
-public class UserClient {
+public class AddUser {
 
     @Test
     public void testMethod(){
