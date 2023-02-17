@@ -1,1 +1,8 @@
-Simple Test
+{
+&    "id": "63ee490a0e691d60fa51b241",
+    "firstName": "Tenali",
+    "lastName": "Ramakrishna",
+?    "email": "b06b72b4-0a92-4f13-820e-d0f18c40f67d@gmail.com",
+0    "registerDate": "2023-02-16T15:17:30.926Z",
+.    "updatedDate": "2023-02-16T15:17:30.926Z"
+}
