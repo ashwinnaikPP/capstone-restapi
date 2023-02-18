@@ -41,4 +41,4 @@ Scenarios Automated:
 
 2. From the main menu, select Run | Edit Configurations to open the run/debug configuration for your project.
 
-3. In the Run/Debug Configurations dialog, in the Before Launch section, Select Runner call from FruitBowl or ShoppingCart to run the program.
+3. In the Run/Debug Configurations dialog, in the Before Launch section, Select any Tests to run the program.
