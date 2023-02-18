@@ -18,10 +18,15 @@ public class CreateUserTests {
     @Test
     public void shouldCreateUser() {
         //Arrange
-        CreateUserRequestBody userRequestBody = new CreateUserRequestBody.Builder().build();
+        CreateUserRequestBody userRequestBody =
+                new CreateUserRequestBody
+                        .Builder()
+                        .build();
 
         //Act
-        CreateUserResponse createUserResponse = usersService.createUser(userRequestBody);
+        CreateUserResponse createUserResponse =
+                usersService
+                        .createUser(userRequestBody);
 
         //Assert
         createUserResponse.assertUser(userRequestBody);
