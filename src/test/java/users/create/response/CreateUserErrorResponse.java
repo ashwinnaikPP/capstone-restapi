@@ -18,8 +18,8 @@ public class CreateUserErrorResponse {
     }
 
     @Getter
-    public static class Data{
+    public static class Data {
         @JsonProperty("email")
-       private String emailErrorMessage;
+        private String emailErrorMessage;
     }
 }
