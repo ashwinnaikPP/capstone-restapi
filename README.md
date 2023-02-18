@@ -21,9 +21,9 @@ Scenarios atomated:
 
 3. Type git clone, and then paste the URL.
 
-    URL: https://github.com/ashwinnaikPP/restapi-ultralesson/
+    URL: https://github.com/ashwinnaikPP/capstone-restapi
 
-    $ git clone https://github.com/ashwinnaikPP/restapi-ultralesson/
+    $ git clone https://github.com/ashwinnaikPP/capstone-restapi
 
 4. Hit Enter.
 
