@@ -3,7 +3,7 @@
 
 Register yourself at https://dummyapi.io/. Once registered, you would get access to a bunch of APIs for a blogging application. 
 
-Scenarios atomated:
+Scenarios Automated:
 1. Get the list of users: https://dummyapi.io/data/v1/user?limit=10
 2. Create a user: https://dummyapi.io/data/v1/user/create
 2.1. Create a user with an already existing email address (negative test): https://dummyapi.io/data/v1/user/create
