@@ -1,198 +1,387 @@
 {
-    "data": [
-
-        {
-.            "id": "60d0fe4f5311236168a109ca",
-            "title": "ms",
-!            "firstName": "Sara",
-$            "lastName": "Andersen",
-J            "picture": "https://randomuser.me/api/portraits/women/58.jpg"
-        },
-
-        {
-.            "id": "60d0fe4f5311236168a109cb",
-            "title": "miss",
-"            "firstName": "Edita",
-%            "lastName": "Vestering",
-N            "picture": "https://randomuser.me/api/portraits/med/women/89.jpg"
-        },
-
-        {
-.            "id": "60d0fe4f5311236168a109cc",
-            "title": "ms",
-"            "firstName": "Adina",
-#            "lastName": "Barbosa",
-N            "picture": "https://randomuser.me/api/portraits/med/women/28.jpg"
-        },
-
-        {
-.            "id": "60d0fe4f5311236168a109cd",
-            "title": "mr",
-$            "firstName": "Roberto",
-             "lastName": "Vega",
-L            "picture": "https://randomuser.me/api/portraits/med/men/25.jpg"
-        },
-
-        {
-.            "id": "60d0fe4f5311236168a109ce",
-            "title": "mr",
-!            "firstName": "Rudi",
-"            "lastName": "Droste",
-L            "picture": "https://randomuser.me/api/portraits/med/men/83.jpg"
-        },
-
-        {
-.            "id": "60d0fe4f5311236168a109cf",
-            "title": "mrs",
-%            "firstName": "Carolina",
-             "lastName": "Lima",
-M            "picture": "https://randomuser.me/api/portraits/med/women/5.jpg"
-        },
-
-        {
-.            "id": "60d0fe4f5311236168a109d0",
-            "title": "mr",
-!            "firstName": "Emre",
-$            "lastName": "Asikoglu",
-L            "picture": "https://randomuser.me/api/portraits/med/men/23.jpg"
-        },
-
-        {
-.            "id": "60d0fe4f5311236168a109d1",
-            "title": "mr",
-!            "firstName": "Kent",
-"            "lastName": "Brewer",
-L            "picture": "https://randomuser.me/api/portraits/med/men/52.jpg"
-        },
-
-        {
-.            "id": "60d0fe4f5311236168a109d2",
-            "title": "mr",
-!            "firstName": "Evan",
-#            "lastName": "Carlson",
-L            "picture": "https://randomuser.me/api/portraits/med/men/80.jpg"
-        },
-
-        {
-.            "id": "60d0fe4f5311236168a109d4",
-            "title": "mr",
-%            "firstName": "Valentin",
-"            "lastName": "Ortega",
-K            "picture": "https://randomuser.me/api/portraits/med/men/3.jpg"
-
-        }
+&    "id": "63f2463d78444b48a02af10e",
+T    "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+    "likes": 6,
+    "link": "",
+    "tags": [
+        "Nature",
+        "Sunset"
     ],
-    "total": 115,
-    "page": 0,
-    "limit": 10
+0    "text": "This is a text for the Blog Post",
+/    "publishDate": "2023-02-19T15:54:37.954Z",
+/    "updatedDate": "2023-02-19T15:54:37.954Z",
+    "owner": {
+*        "id": "60d0fe4f5311236168a10a0b",
+        "title": "miss",
+"        "firstName": "Margarita",
+        "lastName": "Vicente",
+I        "picture": "https://randomuser.me/api/portraits/med/women/5.jpg"
+    }
+}
+{
+&    "id": "63f2463d78444b48a02af10e",
+T    "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+    "likes": 6,
+    "link": "",
+    "tags": [
+        "Nature",
+        "Sunset"
+    ],
+0    "text": "This is a text for the Blog Post",
+/    "publishDate": "2023-02-19T15:54:37.954Z",
+/    "updatedDate": "2023-02-19T15:54:37.954Z",
+    "owner": {
+*        "id": "60d0fe4f5311236168a10a0b",
+        "title": "miss",
+"        "firstName": "Margarita",
+        "lastName": "Vicente",
+I        "picture": "https://randomuser.me/api/portraits/med/women/5.jpg"
+    }
 }
 {
-    "data": [
-
-        {
-.            "id": "63ebb37e30c2b9e312a83fed",
-"            "firstName": "Kulal",
-            "lastName": "Ash"
-        },
-
-        {
-.            "id": "63ebb3aa30c2b93634a84005",
-"            "firstName": "Kulal",
-            "lastName": "Ash"
-        },
-
-        {
-.            "id": "63ee2a420e691d385b51985c",
-"            "firstName": "Kulal",
-            "lastName": "Ash"
-        },
-
-        {
-.            "id": "63ee48ca0e691db68d51b1ed",
-#            "firstName": "Tenali",
-&            "lastName": "Ramakrishna"
-        },
-
-        {
-.            "id": "63ee490a0e691d60fa51b241",
-#            "firstName": "Tenali",
-&            "lastName": "Ramakrishna"
-        },
-
-        {
-.            "id": "63f0a7d84089c5bc86aa8caa",
-             "firstName": "Ash",
-!            "lastName": "Shetty"
-        },
-
-        {
-.            "id": "63f0a7f9c44ad390a9a32e92",
-             "firstName": "Ash",
-!            "lastName": "Shetty"
-        },
-
-        {
-.            "id": "63f0a876c44ad30953a32e99",
-             "firstName": "Ash",
-!            "lastName": "Shetty"
-        },
-
-        {
-.            "id": "63f0b6b14089c501d5aa972a",
-             "firstName": "Ash",
-!            "lastName": "Shetty"
-        },
-
-        {
-.            "id": "63f0c4384089c57712aa9d4b",
-             "firstName": "Ash",
-!            "lastName": "Shetty"
-        },
-
-        {
-.            "id": "63f0d8014089c5403daaaa3e",
-             "firstName": "Ash",
-!            "lastName": "Shetty"
-        },
-
-        {
-.            "id": "63f0e3c54089c54aa8aaae36",
-             "firstName": "Ash",
-!            "lastName": "Shetty"
-        },
-
-        {
-.            "id": "63f126044089c50f64aacd06",
-             "firstName": "Ash",
-!            "lastName": "Shetty"
-        },
-
-        {
-.            "id": "63f1280c4089c5462eaace2c",
-             "firstName": "Ash",
-!            "lastName": "Shetty"
-        },
-
-        {
-.            "id": "63f1d9d4f06bd457c0019995",
-             "firstName": "Ash",
-!            "lastName": "Shetty"
-        },
-
-        {
-.            "id": "63f1f16878444b82052ab9f1",
-             "firstName": "Ash",
-!            "lastName": "Shetty"
-        },
-
-        {
-.            "id": "63f21fe678444b81102ad4b7",
-             "firstName": "Ash",
-!            "lastName": "Shetty"
-
-        }
+&    "id": "63f2463e78444b81022af11b",
+T    "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+    "likes": 6,
+    "link": "",
+    "tags": [
+        "Nature",
+        "Sunset"
     ],
-    "total": 17,
-    "page": 0,
-    "limit": 20
+0    "text": "This is a text for the Blog Post",
+/    "publishDate": "2023-02-19T15:54:38.840Z",
+/    "updatedDate": "2023-02-19T15:54:38.840Z",
+    "owner": {
+*        "id": "60d0fe4f5311236168a10a0b",
+        "title": "miss",
+"        "firstName": "Margarita",
+        "lastName": "Vicente",
+I        "picture": "https://randomuser.me/api/portraits/med/women/5.jpg"
+    }
 }
+{
+%    "id": "63f2463e78444b81022af11b"
+}
+{
+"    "error": "RESOURCE_NOT_FOUND"
+}
+{
+&    "id": "63f2463f78444b31772af128",
+T    "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+    "likes": 6,
+    "link": "",
+    "tags": [
+        "Nature",
+        "Sunset"
+    ],
+0    "text": "This is a text for the Blog Post",
+/    "publishDate": "2023-02-19T15:54:39.952Z",
+/    "updatedDate": "2023-02-19T15:54:39.952Z",
+    "owner": {
+*        "id": "60d0fe4f5311236168a10a0b",
+        "title": "miss",
+"        "firstName": "Margarita",
+        "lastName": "Vicente",
+I        "picture": "https://randomuser.me/api/portraits/med/women/5.jpg"
+    }
+}
+{
+&    "id": "63f2464078444b04762af12e",
+T    "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+    "likes": 6,
+    "link": "",
+    "tags": [
+        "Nature",
+        "Sunset"
+    ],
+0    "text": "This is a text for the Blog Post",
+/    "publishDate": "2023-02-19T15:54:40.305Z",
+/    "updatedDate": "2023-02-19T15:54:40.305Z",
+    "owner": {
+*        "id": "60d0fe4f5311236168a10a0b",
+        "title": "miss",
+"        "firstName": "Margarita",
+        "lastName": "Vicente",
+I        "picture": "https://randomuser.me/api/portraits/med/women/5.jpg"
+    }
+}
+{
+%    "id": "63f2464078444b04762af12e"
+}
+	{
+	&    "id": "63f2464178444b47cb2af138",
+	T    "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+	    "likes": 6,
+	    "link": "",
+	    "tags": [
+	        "Nature",
+	        "Sunset"
+	    ],
+	0    "text": "This is a text for the Blog Post",
+	/    "publishDate": "2023-02-19T15:54:41.057Z",
+	/    "updatedDate": "2023-02-19T15:54:41.057Z",
+	    "owner": {
+	*        "id": "60d0fe4f5311236168a10a0b",
+	        "title": "miss",
+	"        "firstName": "Margarita",
+	        "lastName": "Vicente",
+	I        "picture": "https://randomuser.me/api/portraits/med/women/5.jpg"
+	    }
+	}
+	{
+	&    "id": "63f2464178444b47cb2af138",
+	T    "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+	    "likes": 6,
+	    "link": "",
+	    "tags": [
+	        "Nature",
+	        "Sunset"
+	    ],
+	0    "text": "This is a text for the Blog Post",
+	/    "publishDate": "2023-02-19T15:54:41.057Z",
+	/    "updatedDate": "2023-02-19T15:54:41.057Z",
+	    "owner": {
+	*        "id": "60d0fe4f5311236168a10a0b",
+	        "title": "miss",
+	"        "firstName": "Margarita",
+	        "lastName": "Vicente",
+	I        "picture": "https://randomuser.me/api/portraits/med/women/5.jpg"
+	    }
+	}
+
+{
+
+&    "id": "63f2464178444b68fa2af142",
+
+    "firstName": "Ash",
+
+    "lastName": "Shetty",
+
+?    "email": "6555acac-ad50-438e-b1e8-a472b32f1c78@gmail.com",
+
+0    "registerDate": "2023-02-19T15:54:41.757Z",
+
+.    "updatedDate": "2023-02-19T15:54:41.757Z"
+
+}
+{
+    "error": "BODY_NOT_VALID",
+    "data": {
+&        "email": "Email already used"
+    }
+}
+{
+    "data": [
+
+        {
+.            "id": "60d0fe4f5311236168a109ca",
+            "title": "ms",
+!            "firstName": "Sara",
+$            "lastName": "Andersen",
+J            "picture": "https://randomuser.me/api/portraits/women/58.jpg"
+        },
+
+        {
+.            "id": "60d0fe4f5311236168a109cb",
+            "title": "miss",
+"            "firstName": "Edita",
+%            "lastName": "Vestering",
+N            "picture": "https://randomuser.me/api/portraits/med/women/89.jpg"
+        },
+
+        {
+.            "id": "60d0fe4f5311236168a109cc",
+            "title": "ms",
+"            "firstName": "Adina",
+#            "lastName": "Barbosa",
+N            "picture": "https://randomuser.me/api/portraits/med/women/28.jpg"
+        },
+
+        {
+.            "id": "60d0fe4f5311236168a109cd",
+            "title": "mr",
+$            "firstName": "Roberto",
+             "lastName": "Vega",
+L            "picture": "https://randomuser.me/api/portraits/med/men/25.jpg"
+        },
+
+        {
+.            "id": "60d0fe4f5311236168a109ce",
+            "title": "mr",
+!            "firstName": "Rudi",
+"            "lastName": "Droste",
+L            "picture": "https://randomuser.me/api/portraits/med/men/83.jpg"
+        },
+
+        {
+.            "id": "60d0fe4f5311236168a109cf",
+            "title": "mrs",
+%            "firstName": "Carolina",
+             "lastName": "Lima",
+M            "picture": "https://randomuser.me/api/portraits/med/women/5.jpg"
+        },
+
+        {
+.            "id": "60d0fe4f5311236168a109d0",
+            "title": "mr",
+!            "firstName": "Emre",
+$            "lastName": "Asikoglu",
+L            "picture": "https://randomuser.me/api/portraits/med/men/23.jpg"
+        },
+
+        {
+.            "id": "60d0fe4f5311236168a109d1",
+            "title": "mr",
+!            "firstName": "Kent",
+"            "lastName": "Brewer",
+L            "picture": "https://randomuser.me/api/portraits/med/men/52.jpg"
+        },
+
+        {
+.            "id": "60d0fe4f5311236168a109d2",
+            "title": "mr",
+!            "firstName": "Evan",
+#            "lastName": "Carlson",
+L            "picture": "https://randomuser.me/api/portraits/med/men/80.jpg"
+        },
+
+        {
+.            "id": "60d0fe4f5311236168a109d4",
+            "title": "mr",
+%            "firstName": "Valentin",
+"            "lastName": "Ortega",
+K            "picture": "https://randomuser.me/api/portraits/med/men/3.jpg"
+
+        }
+    ],
+    "total": 122,
+    "page": 0,
+    "limit": 10
+}
+{
+    "data": [
+
+        {
+.            "id": "63ebb37e30c2b9e312a83fed",
+"            "firstName": "Kulal",
+            "lastName": "Ash"
+        },
+
+        {
+.            "id": "63ebb3aa30c2b93634a84005",
+"            "firstName": "Kulal",
+            "lastName": "Ash"
+        },
+
+        {
+.            "id": "63ee2a420e691d385b51985c",
+"            "firstName": "Kulal",
+            "lastName": "Ash"
+        },
+
+        {
+.            "id": "63ee48ca0e691db68d51b1ed",
+#            "firstName": "Tenali",
+&            "lastName": "Ramakrishna"
+        },
+
+        {
+.            "id": "63ee490a0e691d60fa51b241",
+#            "firstName": "Tenali",
+&            "lastName": "Ramakrishna"
+        },
+
+        {
+.            "id": "63f0a7d84089c5bc86aa8caa",
+             "firstName": "Ash",
+!            "lastName": "Shetty"
+        },
+
+        {
+.            "id": "63f0a7f9c44ad390a9a32e92",
+             "firstName": "Ash",
+!            "lastName": "Shetty"
+        },
+
+        {
+.            "id": "63f0a876c44ad30953a32e99",
+             "firstName": "Ash",
+!            "lastName": "Shetty"
+        },
+
+        {
+.            "id": "63f0b6b14089c501d5aa972a",
+             "firstName": "Ash",
+!            "lastName": "Shetty"
+        },
+
+        {
+.            "id": "63f0c4384089c57712aa9d4b",
+             "firstName": "Ash",
+!            "lastName": "Shetty"
+        },
+
+        {
+.            "id": "63f0d8014089c5403daaaa3e",
+             "firstName": "Ash",
+!            "lastName": "Shetty"
+        },
+
+        {
+.            "id": "63f0e3c54089c54aa8aaae36",
+             "firstName": "Ash",
+!            "lastName": "Shetty"
+        },
+
+        {
+.            "id": "63f126044089c50f64aacd06",
+             "firstName": "Ash",
+!            "lastName": "Shetty"
+        },
+
+        {
+.            "id": "63f1280c4089c5462eaace2c",
+             "firstName": "Ash",
+!            "lastName": "Shetty"
+        },
+
+        {
+.            "id": "63f1d9d4f06bd457c0019995",
+             "firstName": "Ash",
+!            "lastName": "Shetty"
+        },
+
+        {
+.            "id": "63f1f16878444b82052ab9f1",
+             "firstName": "Ash",
+!            "lastName": "Shetty"
+        },
+
+        {
+.            "id": "63f21fe678444b81102ad4b7",
+             "firstName": "Ash",
+!            "lastName": "Shetty"
+        },
+
+        {
+.            "id": "63f220be78444b7f662ad51b",
+             "firstName": "Ash",
+!            "lastName": "Shetty"
+        },
+
+        {
+.            "id": "63f22ec578444bca322adfc5",
+             "firstName": "Ash",
+!            "lastName": "Shetty"
+        },
+
+        {
+.            "id": "63f232ca78444b77892ae334",
+             "firstName": "Ash",
+!            "lastName": "Shetty"
+
+        }
+    ],
+    "total": 24,
+    "page": 0,
+    "limit": 20
+}

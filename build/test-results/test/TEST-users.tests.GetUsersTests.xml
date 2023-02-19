@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="users.tests.GetUsersTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-02-19T13:11:17" hostname="PP-C02CP8HJMD6M" time="2.36">
+<testsuite name="users.tests.GetUsersTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-02-19T15:54:42" hostname="PP-C02CP8HJMD6M" time="0.813">
   <properties/>
-  <testcase name="shouldGetAllTheUsers" classname="users.tests.GetUsersTests" time="1.962"/>
-  <testcase name="shouldGetUsersCreatedOnYourAccount" classname="users.tests.GetUsersTests" time="0.394"/>
+  <testcase name="shouldGetAllTheUsers" classname="users.tests.GetUsersTests" time="0.405"/>
+  <testcase name="shouldGetUsersCreatedOnYourAccount" classname="users.tests.GetUsersTests" time="0.407"/>
   <system-out><![CDATA[{
     "data": [
         {
@@ -76,7 +76,7 @@
             "picture": "https://randomuser.me/api/portraits/med/men/3.jpg"
         }
     ],
-    "total": 115,
+    "total": 122,
     "page": 0,
     "limit": 10
 }
@@ -166,9 +166,24 @@
             "id": "63f21fe678444b81102ad4b7",
             "firstName": "Ash",
             "lastName": "Shetty"
+        },
+        {
+            "id": "63f220be78444b7f662ad51b",
+            "firstName": "Ash",
+            "lastName": "Shetty"
+        },
+        {
+            "id": "63f22ec578444bca322adfc5",
+            "firstName": "Ash",
+            "lastName": "Shetty"
+        },
+        {
+            "id": "63f232ca78444b77892ae334",
+            "firstName": "Ash",
+            "lastName": "Shetty"
         }
     ],
-    "total": 17,
+    "total": 24,
     "page": 0,
     "limit": 20
 }
