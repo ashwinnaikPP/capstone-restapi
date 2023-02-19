@@ -39,7 +39,7 @@ Scenarios Automated:
 
 From terminal run
 
-gradle test
+<b>gradle test</b>
 or
-gradle runApiTests
+<b>gradle runApiTests</b>
 
