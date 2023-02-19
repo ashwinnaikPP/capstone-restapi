@@ -27,7 +27,7 @@ public class CreatePostBlogRequestBody {
         private final String image;
         private final int likes;
         @JsonProperty("tags")
-        private List<String> tagsList = new ArrayList<>(2);
+        private List<String> tagsList;
         private final String owner;
 
         public Builder(){
@@ -39,6 +39,7 @@ public class CreatePostBlogRequestBody {
         }
 
         public List<String> addTags() {
+            tagsList = new ArrayList<>();
             tagsList.add("Nature");
             tagsList.add("Sunset");
             return tagsList;

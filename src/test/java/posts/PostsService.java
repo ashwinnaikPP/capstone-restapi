@@ -2,16 +2,24 @@ package posts;
 
 import io.restassured.response.Response;
 import posts.request.CreatePostBlogRequestBody;
-import posts.response.CreatePostsResponse;
+import posts.response.PostsResponse;
 
 public class PostsService {
 
     PostsClient postsClient = new PostsClient();
 
-    public CreatePostsResponse createPosts(CreatePostBlogRequestBody body) {
+    public PostsResponse createPosts(CreatePostBlogRequestBody body) {
         Response response = postsClient.create(body);
-        CreatePostsResponse createPostsResponse = response.as(CreatePostsResponse.class);
-        createPostsResponse.setStatusCode(response.statusCode());
-        return createPostsResponse;
+        PostsResponse postsResponse = response.as(PostsResponse.class);
+        postsResponse.setStatusCode(response.statusCode());
+        return postsResponse;
+    }
+
+    public PostsResponse getPostsById() {
+        Response response = postsClient.getPost();
+        int statusCode = response.statusCode();
+        PostsResponse getPostsByIdResponse = response.as(PostsResponse.class);
+        getPostsByIdResponse.setStatusCode(statusCode);
+        return getPostsByIdResponse;
     }
 }

@@ -4,7 +4,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import posts.PostsService;
 import posts.request.CreatePostBlogRequestBody;
-import posts.response.CreatePostsResponse;
+import posts.response.PostsResponse;
 
 public class CreatePostsTest {
     private PostsService postsServices;
@@ -20,9 +20,9 @@ public class CreatePostsTest {
         CreatePostBlogRequestBody postBlogRequestBody = new CreatePostBlogRequestBody.Builder().build();
 
         //Act
-        CreatePostsResponse createPostsResponse = postsServices.createPosts(postBlogRequestBody);
+        PostsResponse postsResponse = postsServices.createPosts(postBlogRequestBody);
 
         //Assert
-        createPostsResponse.assertUser(postBlogRequestBody);
+        postsResponse.assertPosts(postBlogRequestBody);
     }
 }

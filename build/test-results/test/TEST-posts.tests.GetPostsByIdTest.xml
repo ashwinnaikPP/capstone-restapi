@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="posts.tests.GetPostsByIdTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-19T08:10:29" hostname="PP-C02CP8HJMD6M" time="1.862">
+  <properties/>
+  <testcase name="shouldGetPostByID" classname="posts.tests.GetPostsByIdTest" time="1.862"/>
+  <system-out><![CDATA[{
+    "id": "63f10a154089c566c2aac27c",
+    "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+    "likes": 6,
+    "link": "",
+    "tags": [
+        "Nature",
+        "Sunset"
+    ],
+    "text": "This is a text for the Blog Post",
+    "publishDate": "2023-02-18T17:25:41.482Z",
+    "updatedDate": "2023-02-18T17:25:41.482Z",
+    "owner": {
+        "id": "60d0fe4f5311236168a10a0b",
+        "title": "miss",
+        "firstName": "Margarita",
+        "lastName": "Vicente",
+        "picture": "https://randomuser.me/api/portraits/med/women/5.jpg"
+    }
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

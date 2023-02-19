@@ -20,4 +20,15 @@ public class PostsClient {
                 .log().body();
         return response;
     }
+
+    public Response getPost() {
+        Response response =
+                given()
+                        .header("app-id", "63ea666e5dc514a7728f25e3")
+                        .when()
+                        .get("https://dummyapi.io/data/v1/post/63f10a154089c566c2aac27c");
+        response.then()
+                .log().body();
+        return response;
+    }
 }
