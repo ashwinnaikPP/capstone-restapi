@@ -17,7 +17,8 @@ public class GetPostsByIdTest {
     @Test
     public void shouldGetPostByID() {
         //Act
-        PostsResponse getPostsByIdResponse = postsService.getPostsById();
+        String id = postsService.getIdFromCreatePost();
+        PostsResponse getPostsByIdResponse = postsService.getPostsById(id);
 
         //Assert
         getPostsByIdResponse.assertPostById();

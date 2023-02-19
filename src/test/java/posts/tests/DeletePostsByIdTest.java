@@ -15,9 +15,10 @@ public class DeletePostsByIdTest {
     }
 
     @Test
-    public void shouldGetPostByID() {
+    public void shouldDeletePostByID() {
         //Act
-        PostsResponse deletePostByID = postsService.deletePostsById();
+        String id = postsService.getIdFromCreatePost();
+        PostsResponse deletePostByID = postsService.deletePostsById(id);
 
         //Assert
         deletePostByID.assertDeletePostById();

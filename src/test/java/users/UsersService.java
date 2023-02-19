@@ -7,7 +7,7 @@ import users.create.response.CreateUserResponse;
 import users.create.response.GetAllUserResponse;
 
 public class UsersService {
-    UsersClient usersClient = new UsersClient();
+    final UsersClient usersClient = new UsersClient();
 
     public CreateUserResponse createUser(CreateUserRequestBody body) {
         Response response = usersClient.create(body);

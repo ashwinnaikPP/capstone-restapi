@@ -56,7 +56,6 @@ public class PostsResponse {
         assertNotNull(this.getImage());
         assertNotNull(this.getTags());
         assertEquals(this.getText(), "This is a text for the Blog Post");
-        assertEquals(this.getId(), "63f10a154089c566c2aac27c");
         assertEquals(this.getImage(), "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg");
         assertEquals(this.getLikes(), 6);
     }

@@ -7,6 +7,7 @@ import posts.request.CreatePostBlogRequestBody;
 import static io.restassured.RestAssured.given;
 
 public class PostsClient {
+
     public Response create(CreatePostBlogRequestBody body) {
         Response response =
                 given()
@@ -21,23 +22,25 @@ public class PostsClient {
         return response;
     }
 
-    public Response getPost() {
+    public Response getPost(String id) {
         Response response =
                 given()
                         .header("app-id", "63ea666e5dc514a7728f25e3")
+                        .pathParam("id", id)
                         .when()
-                        .get("https://dummyapi.io/data/v1/post/63f10a154089c566c2aac27c");
+                        .get("https://dummyapi.io/data/v1/post/{id}");
         response.then()
                 .log().body();
         return response;
     }
 
-    public Response deletePost() {
+    public Response deletePost(String id) {
         Response response =
                 given()
                         .header("app-id", "63ea666e5dc514a7728f25e3")
+                        .pathParam("id", id)
                         .when()
-                        .delete("https://dummyapi.io/data/v1/post/63f11f9a4089c53f40aacb0b");
+                        .delete("https://dummyapi.io/data/v1/post/{id}");
         response.then()
                 .log().body();
         return response;
