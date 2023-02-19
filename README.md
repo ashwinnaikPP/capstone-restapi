@@ -37,8 +37,9 @@ Scenarios Automated:
 
 <b>How to run the Project:</b>
 
-1. Open the Project in IDE.
+From terminal run
 
-2. From the main menu, select Run | Edit Configurations to open the run/debug configuration for your project.
+gradle test
+or
+gradle runApiTests
 
-3. In the Run/Debug Configurations dialog, in the Before Launch section, Select any Tests to run the program.
