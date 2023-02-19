@@ -60,4 +60,9 @@ public class PostsResponse {
         assertEquals(this.getImage(), "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg");
         assertEquals(this.getLikes(), 6);
     }
+
+    public void assertDeletePostById() {
+        assertEquals(this.getStatusCode(), 200);
+        assertNotNull(this.getId());
+    }
 }

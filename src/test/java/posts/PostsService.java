@@ -22,4 +22,12 @@ public class PostsService {
         getPostsByIdResponse.setStatusCode(statusCode);
         return getPostsByIdResponse;
     }
+
+    public PostsResponse deletePostsById() {
+        Response response = postsClient.deletePost();
+        int statusCode = response.statusCode();
+        PostsResponse deletePostByIDResponse = response.as(PostsResponse.class);
+        deletePostByIDResponse.setStatusCode(statusCode);
+        return deletePostByIDResponse;
+    }
 }

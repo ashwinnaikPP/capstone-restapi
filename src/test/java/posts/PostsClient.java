@@ -31,4 +31,15 @@ public class PostsClient {
                 .log().body();
         return response;
     }
+
+    public Response deletePost() {
+        Response response =
+                given()
+                        .header("app-id", "63ea666e5dc514a7728f25e3")
+                        .when()
+                        .delete("https://dummyapi.io/data/v1/post/63f11f9a4089c53f40aacb0b");
+        response.then()
+                .log().body();
+        return response;
+    }
 }
