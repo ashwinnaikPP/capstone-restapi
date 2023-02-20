@@ -36,6 +36,8 @@ test {
 }
 
 tasks.register('runApiTests', Test) {
+    description = 'Runs all the Test in the Project'
+    println("Running Tests...")
     useTestNG {
         parallel = "methods"
         testLogging.showStandardStreams = true
